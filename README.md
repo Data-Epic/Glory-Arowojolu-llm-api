@@ -5,7 +5,9 @@ This is a conversational AI powered by Groq. It is designed to provide support t
 To use this project, follow these steps:
 
 1. **Clone the Repository**:
+```
 git clone <repository-url>
+```
 2. **Navigate to the Project Directory**:
 ```
 cd <project-directory>
@@ -19,7 +21,7 @@ myenv\Scripts\activate
 ```
 pip install -r requirements.txt
 ```
-5. **Create a .env in the root directory of your project and add your Groq API key.
+5. **Create a .env in the root directory of your project and add your Groq API key**:
 ```
 GROQ_API_KEY=<your-api-key-here>
 ```
@@ -32,12 +34,13 @@ cd [your project directory]
 ```
 2. **Run the main Python script from the terminal or command prompt.**
 ```
-python [customer assistant.py]
+python [customer_support_assistant.py]
 ```
 
 ## Example Usage
 
 **User**: Hi! I am Glory and I want to make inquiries about the available Android phones.
+
 **Assistant**: Hello Glory! Welcome to Kamisafe. Thank you for reaching out. We have a wide range of Android phones available from top brands like Samsung, Google Pixel, Xiaomi, and more. Could you let me know what you're looking for?
 
 ## Limitations 
